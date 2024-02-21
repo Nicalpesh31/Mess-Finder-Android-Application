@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MessFinder</string>
+    <string-array name="role">
+        <item>Mess Owner</item>
+       <item>User</item>
+    </string-array>
+    <string-array name="menutype">
+        <item>Veg</item>
+        <item>Non Veg</item>
+        <item>Veg and Non Veg</item>
+    </string-array>
+</resources>

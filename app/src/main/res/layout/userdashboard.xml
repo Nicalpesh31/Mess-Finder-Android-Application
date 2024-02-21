@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="171dp"
+        android:background="@drawable/back"></LinearLayout>
+    <Button
+        android:id="@+id/searchmess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonback"
+        android:text="Search Mess Nearby to Me"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/searchbyname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonback"
+        android:text="Search By Name"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/viewallmess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonback"
+        android:text="View All Mess"
+        android:textColor="#ffffff" />
+    <Button
+        android:id="@+id/myorders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonback"
+        android:text="My Orders"
+        android:textColor="#ffffff" />
+
+    <Button
+    android:id="@+id/logout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/buttonback"
+    android:text="LogOut"
+    android:textColor="#ffffff" />
+
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="90px"
+        android:text="Mess Finder" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_marginTop="90dp"
+        android:text="Enter Username" />
+
+    <EditText
+        android:id="@+id/main_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonback"
+        android:ems="10"
+         />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Enter Password" />
+    <EditText
+        android:id="@+id/main_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:background="@drawable/buttonback"
+         />
+
+    <Button
+        android:id="@+id/main_login"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonback"
+        android:text="Login"
+        android:textColor="#ffffff" />
+    <TextView
+        android:textColor="#3F51B5"
+        android:id="@+id/signup"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="Don't Have an Account ? Sign Up" />
+
+    <TextView
+        android:id="@+id/messlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:text="Mess Login"
+        android:textColor="#3F51B5"
+        android:textStyle="bold" />
+</LinearLayout>
